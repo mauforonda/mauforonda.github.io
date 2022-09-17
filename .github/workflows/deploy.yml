@@ -19,7 +19,7 @@ jobs:
             -s
             --output=docs/index.html
             --metadata title="Mauricio Foronda"
-            --template=template.html"
+            --template=template.html
             index.md
       - name: publish
         uses: crazy-max/ghaction-github-pages@v3
