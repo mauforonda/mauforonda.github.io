@@ -1,0 +1,28 @@
+name: Deploy page
+
+on: push
+
+jobs:
+  deploy_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: prepare
+        run: |
+          mkdir docs
+          cp build/index.css docs/
+      - name: convert
+        uses: docker://pandoc/core:2.9
+        with:
+          args: >-
+            -s
+            --input=index.md
+            --output=docs/index.html
+            --metadata title="Mauricio Foronda"
+            --template=build/template.html"
+      - name: publish
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
