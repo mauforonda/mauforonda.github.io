@@ -17,10 +17,10 @@ jobs:
         with:
           args: >-
             -s
-            --input=index.md
             --output=docs/index.html
             --metadata title="Mauricio Foronda"
             --template=build/template.html"
+            index.md
       - name: publish
         uses: crazy-max/ghaction-github-pages@v3
         with:
