@@ -11,7 +11,7 @@ jobs:
       - name: prepare
         run: |
           mkdir docs
-          cp build/index.css docs/
+          cp templates/index.css docs/
       - name: convert
         uses: docker://pandoc/core:2.9
         with:
@@ -19,7 +19,7 @@ jobs:
             -s
             --output=docs/index.html
             --metadata title="Mauricio Foronda"
-            --template=build/template.html"
+            --template=template.html"
             index.md
       - name: publish
         uses: crazy-max/ghaction-github-pages@v3
