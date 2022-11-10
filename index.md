@@ -1,9 +1,18 @@
-👋 Hola, mi nombre es Mauricio Foronda.
+# Hola, mi nombre es Mauricio Foronda
 
-Ésta es una lista no exhaustiva de proyectos recientes.
+## actualizado el 9 de noviembre de 2022 {.update}
 
-- [Algunos **cuadernos interactivos** para explorar datos de Bolivia](https://observablehq.com/collection/@mauforonda/datos-abiertos-del-gobierno-boliviano). Incluye
-  - [Un cuaderno para visualizar **datos geográficos** en servidores de entidades de gobierno](https://observablehq.com/@mauforonda/datos-geograficos-del-gobierno-boliviano). Un [repositorio git](https://github.com/mauforonda/geodatos/) almacena y actualiza el catálogo de datos diariamente.
+- Últimamente
+  - [What goes on in Mastodon](https://observablehq.com/@mauforonda/what-goes-on-in-mastodon) 
+    - *Un monitor del crecimiento de instancias de mastodon*
+    - La incertidumbre tras la compra de twitter por Elon Musk ha motivado a muchos usuarios a buscar refugio en plataformas alternativas como mastodon. Gracias a su mayor transparencia por defecto, es posible consultar el número de usuarios y publicaciones en cada instancia de mastodon. Cuántos usuarios crean cuentas? a qué instancias se dirigen? logran acomodarse y publicar contenido regularmente? [Monitoreo](https://github.com/mauforonda/mastodon_timeline/) indicadores en cada instancia activa de mastodon y creo visualizaciones para intentar responder estas preguntas en tiempo real.
+  - [Un cuaderno para explorar proyectos con **licencias ambientales** en Bolivia](https://observablehq.com/@mauforonda/licencias-ambientales)
+    - Me preocupa mucho la facilidad con que cooperativas mineras pueden establecer asentamientos en parques nacionales al norte de La Paz y la enorme destrucción ambiental que dejan a su paso. Si bien no es el tipo de problema que pueda resolver con más información, la falta de transparencia tampoco ayuda. Sería útil tener más claridad sobre quiénes son, qué hacen y cómo pueden actuar tan impunemente. 
+    - En este cuaderno construyo una base de datos de todos los proyectos con licencias ambientales en el país, identifico dónde se encuentran y rastreo la secuencia de documentos que presentan al gobierno. Hasta el momento es la única información pública y de alta resolución que he podido hallar para aproximarme a este problema.
+
+- [**Otros cuadernos** para explorar datos de Bolivia](https://observablehq.com/collection/@mauforonda/datos-abiertos-del-gobierno-boliviano) como
+  - [Un cuaderno para visualizar **datos geográficos** que mantienen entidades de gobierno](https://observablehq.com/@mauforonda/datos-geograficos-del-gobierno-boliviano)
+    - Mucha información estructurada del gobierno sólo llega a ser publicada ocasionalmente como mapas. En este proyecto descubro los servidores que la alojan, [construyo](https://github.com/mauforonda/geodatos) un catálogo cada noche y ofrezco una página donde cualquiera puede realizar consultas interactivas.
   - [Un servicio para descargar datos de **compras públicas** del gobierno](https://observablehq.com/@mauforonda/compras-del-gobierno-boliviano). Una [instancia de datasette](https://contratos.fly.dev/contratos) sirve los datos.
   - [Un cuaderno para explorar **convocatorias públicas** del gobierno](https://observablehq.com/@mauforonda/convocatorias-publicas-del-gobierno-boliviano). Un [repositorio git](https://github.com/sociedatos/bo-convocatorias_publicas) almacena y actualiza los datos diariamente.
   - [Series de tiempo de **covid-19** por departamento](https://observablehq.com/@mauforonda/covid-19-en-bolivia). Los datos han sido recolectados por dos años desde varios repositorios git: [casos](https://github.com/sociedatos/covid19-bo-casos_por_departamento/), [vacunas](https://github.com/sociedatos/covid19-bo-vacunas_por_departamento), [pruebas](https://github.com/sociedatos/covid19-bo-pruebas_por_departamento/), [hospitalizaciones](https://github.com/sociedatos/bo-hospitalizados_por_departamento/), y muchos otros más.
@@ -42,10 +51,8 @@
   - [En qué horas del día escucho **música** en spotify](https://twitter.com/mauforonda/status/1533662130687430657).
   - [Fallecimientos en **conflictos** bolivianos](https://twitter.com/mauforonda/status/1529694511366123522)
 
-Y mucho más.
+Y muchos otros proyectos más
 
-Los datos, métodos e ideas en cada trabajo son abiertos. Si algo te resulta útil, aprecio mucho que lo cites. También, si tienes alguna idea o sólo quieres conversar de algo relacionado puedes escribirme.
+**updates** [twitter](https://twitter.com/mauforonda), [github](https://github.com/mauforonda/) y [observable](https://observablehq.com/@mauforonda/)
 
-Cualquier contacto a mauriforonda@gmail.com
-
-Novedades en [twitter](https://twitter.com/mauforonda), [github](https://github.com/mauforonda/) y [observable](https://observablehq.com/@mauforonda/). 
+**email** mauriforonda@gmail.com

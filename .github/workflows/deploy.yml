@@ -11,14 +11,14 @@ jobs:
       - name: prepare
         run: |
           mkdir docs
-          cp templates/index.css docs/
+          cp templates/static/* docs/
       - name: convert
         uses: docker://pandoc/core:2.11
         with:
           args: >-
             -s
             --output=docs/index.html
-            --metadata title="Mauricio Foronda"
+            --metadata title="👋 mauforonda"
             --template=templates/template.html
             index.md
       - name: publish
