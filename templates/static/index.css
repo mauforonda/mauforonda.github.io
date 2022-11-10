@@ -78,7 +78,7 @@ a:hover, a:hover strong {
 
 strong {
     color: rgba(0,0,0,.8);
-    font-weight: normal;
+    font-weight: inherit;
     background-color: rgba(251,241,169, .75)
 }
 
