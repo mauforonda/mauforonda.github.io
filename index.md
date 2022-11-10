@@ -3,7 +3,7 @@
 ## actualizado el 9 de noviembre de 2022 {.update}
 
 - Últimamente
-  - [What goes on in Mastodon](https://observablehq.com/@mauforonda/what-goes-on-in-mastodon) 
+  - [What goes on in **Mastodon**](https://observablehq.com/@mauforonda/what-goes-on-in-mastodon) 
     - *Un monitor del crecimiento de instancias de mastodon*
     - La incertidumbre tras la compra de twitter por Elon Musk ha motivado a muchos usuarios a buscar refugio en plataformas alternativas como mastodon. Gracias a su mayor transparencia por defecto, es posible consultar el número de usuarios y publicaciones en cada instancia. Cuántos usuarios crean cuentas? a qué instancias se dirigen? logran acomodarse y publicar contenido regularmente? [Monitoreo](https://github.com/mauforonda/mastodon_timeline/) indicadores en cada instancia activa de mastodon y creo visualizaciones para intentar responder estas preguntas en tiempo real.
   - [Un cuaderno para explorar proyectos con **licencias ambientales** en Bolivia](https://observablehq.com/@mauforonda/licencias-ambientales)
