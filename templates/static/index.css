@@ -1,8 +1,6 @@
 html {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
-    background: #cdecff;
-    animation: changingbg 600s infinite;
-    color: rgba(0,0,0,.6);
+    color: rgba(0,0,0,.9);
     display: flex;
     justify-content: center;
 }
@@ -13,98 +11,22 @@ body {
     line-height: 1.5;
 }
 
-h1 {
-    font-size: 2.5em;
-    max-width: 500px;
-    line-height: 1;
-    opacity: .7;
-    font-weight: bold;
-    margin-left: -15px;
-    margin-bottom: 60px;
-}
-
-.update {
-    font-size: .9em;
-    font-weight: normal;
-    opacity: .5;
-    margin-left: -15px;
-}
-
-body>ul {
-    margin-bottom: 50px;
-    margin-top: 20px;
-    padding-left: 0px;
-    list-style: none
-}
-
-body>ul>li {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: rgba(0,0,0);
-    padding-top: 35px;
-    padding-bottom: 15px;
-    border-top: 20px solid rgba(0,0,0,.05);
-}
-
-body>ul>li>ul>li {
-    font-weight: normal;
-    color: rgba(0,0,0,.8);
-    font-size: .75em;
-}
-
-body>ul>li>ul>li>ul>li {
-    padding-left: 0px;
-    list-style: none;
-    font-size: .8em;
-    opacity: .7;
-    margin-left: -40px;
-}
-
-li {
-    margin: 15px 0px 15px -15px;
-}
-
 a {
-    text-decoration: 1px solid underline;
-    
-    color: rgba(0,0,0,1);
+    text-decoration: 1px dotted underline; 
+    color: rgba(0,0,0,.6);
     padding: 0 0px;
     border-radius: 2px;
 }
 
-a:hover, a:hover strong {
-    background-color: #fff;
+li {
+    font-size: .8rem;
+    margin: 8px 0px;
+    color: rgba(0,0,0,.5);
 }
 
-strong {
-    color: rgba(0,0,0,.8);
-    font-weight: inherit;
-    background-color: rgba(251,241,169, .75)
-}
-
-img {
-    max-height: 300px;
-    border-radius: 50px;
-    opacity: 0.7;
-    border: 7px solid rgba(0,0,0,.2);
-}
-
-@keyframes changingbg {
-	from {
-		background: hsl(203deg 100% 90%);
-	}
-  8% { background: hsl(233deg 68% 92%); }
-  17% { background: hsl(293deg 52% 90%); }
-  25% { background: hsl(323deg 100% 90%); }
-  33% { background: hsl(344deg 98% 92%); }
-  42% { background: hsl(16deg 97% 92%); }
-  50% { background: hsl(38deg 96% 90%); }
-  58% { background: hsl(78deg 44% 87%); }
-  67% { background: hsl(137deg 50% 84%); }
-  75% { background: hsl(158deg 66% 77%); }
-  83% { background: hsl(185deg 62% 84%); }
-  92% { background: hsl(191deg 87% 84%); }
-	to {
-		background: hsl(203deg 100% 90%);
-	}
+code {
+    font-size: .8rem;
+    background-color: rgb(0,0,0,.1);
+    padding: 1px 4px;
+    opacity: .6;
 }
