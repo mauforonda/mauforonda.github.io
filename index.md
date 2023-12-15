@@ -1,5 +1,20 @@
 Algunas cosas que hice.
 
+Deforestación.
+
+- [Escenas de deforestación en 2023](https://observablehq.com/@mauforonda/escenas-de-deforestacion)
+- [El estado de la deforestación en Bolivia](https://observablehq.com/@mauforonda/bolivia-arde)
+- [Visualizaciones estáticas en Twitter](https://twitter.com/search?q=from%3Amauforonda%20filter%3Aimages%20%22focos%20de%20calor%22%20OR%20%22incendios%22&src=typed_query&f=top).
+
+Contaminación minera.
+
+- [Huellas de la minería en el norte de La Paz](https://observablehq.com/@mauforonda/huellas-de-la-mineria-en-el-norte-de-la-paz)
+
+Mediciones de calidad de agua en la cuenca del Río Pilcomayo entre 2007 y 2022.
+
+- [Repositorio de datos](https://github.com/mauforonda/aguas-del-rio-pilcomayo).
+- [Tablero de exploración](https://observablehq.com/@mauforonda/aguas-del-rio-pilcomayo).
+
 Elecciones.
 
 - Elecciones nacionales 2020.
@@ -58,15 +73,6 @@ Documentos del INE actualizados diariamente.
 - [Tablero de exploración](https://observablehq.com/@mauforonda/documentos-del-ine).
 - [Repositorio de datos](https://gitlab.com/mauforonda/ine).
 
-Incendios forestales.
-
-- [Visualizaciones en Twitter](https://twitter.com/search?q=from%3Amauforonda%20filter%3Aimages%20%22focos%20de%20calor%22%20OR%20%22incendios%22&src=typed_query&f=top).
-
-Mediciones de calidad de agua en la cuenca del Río Pilcomayo entre 2007 y 2022.
-
-- [Repositorio de datos](https://github.com/mauforonda/aguas-del-rio-pilcomayo).
-- [Tablero de exploración](https://observablehq.com/@mauforonda/aguas-del-rio-pilcomayo).
-
 Incidentes en carreteras desde 2020.
 
 - [Repositorio de datos](https://github.com/mauforonda/transitabilidad-bolivia).
@@ -124,6 +130,11 @@ Exploraciones sobre ocupación y diversificación económica.
 - Exploraciones de diversificación económica a nivel municipal usando datos de la cartera de créditos, en particular [la relación entre diversificación](https://mauforonda.github.io/notas/diversificacion_economica_y_migracion.html) y [migración interna](https://mauforonda.github.io/notas/proximidad_y_nuevas_actividades_economicas.html).
 - Otras exploraciones con datos de la encuesta contínua de empleo, como [brechas de género en compensaciones](https://mauforonda.github.io/notas/brechas_de_ingresos_entre_mujeres_y_hombres.html) o [multilocalidad](https://mauforonda.github.io/notas/volver_para_trabajar_la_tierra.html).
 
-Y más...
+Guías para la feria del libro de La Paz
+
+- [Feria de 2023](https://mauforonda.github.io/fil23/)
+- [Feria de 2022](https://observablehq.com/@mauforonda/feria-internacional-del-libro-de-la-paz)
+
+Y más en [github](https://github.com/mauforonda/), [observable](https://observablehq.com/) o [twitter](https://twitter.com/mauforonda/)...
 
 `mauriforonda@gmail.com`
