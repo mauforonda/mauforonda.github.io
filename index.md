@@ -25,7 +25,7 @@ Elecciones.
 	- [Repositorio de datos](https://github.com/mauforonda/elecciones2020).
 - Elecciones subnacionales 2021.
 	- [Preferencia política a alcaldes por recinto](https://mauforonda.github.io/elecciones2021/alcaldias.html).
-	- [Preferencia política a gobernadores por recinto](gobernaciones.html).
+	- [Preferencia política a gobernadores por recinto](https://mauforonda.github.io/elecciones2021/gobernaciones.html).
 	- [Repositorio de datos](https://github.com/mauforonda/elecciones2021).
 
 Buses Puma Katari.
@@ -48,12 +48,12 @@ Covid-19.
 - Visualizaciones.
 	- [Tríptico final con casos y vacunas](https://observablehq.com/@mauforonda/anos-de-covid-19-en-bolivia).
 	- [Un tablero rápido](https://observablehq.com/@mauforonda/covid-19-en-bolivia).
-	- [Y docenas de imágenes en Twitter](https://observablehq.com/@mauforonda/covid-19-en-bolivia).
+	- [Y docenas de imágenes en Twitter](https://twitter.com/search?q=from%3Amauforonda%20covid&f=live).
 - Resguardo de reportes oficiales.
 	- [Reportes nacionales de vacunación](https://archive.org/details/vacunacion-covid19-bolivia).
 	- [Reportes departamentales de casos](https://archive.org/details/covid19-bolivia-departamentos).
 - Exploraciones rápidas.
-	- [Dinámicas de contagio y sus efectos sobre la economía en La Paz](https://mauforonda.github.io/notas/volver_para_trabajar_la_tierra.html). 
+	- [Dinámicas de contagio y sus efectos sobre la economía en La Paz](https://mauforonda.github.io/notas/covid19_en_lapaz.html). 
 	- [Brechas en el nivel de vacunación por municipio](https://mauforonda.github.io/notas/vacunaciones_por_municipio.html).
 
 Contrataciones públicas.
@@ -121,7 +121,7 @@ Más visualizaciones de datos en Twitter.
 - [Horas de trabajo de madres bolivianas](https://twitter.com/mauforonda/status/1530412449224183808).
 - [Representación de mujeres en congresos universitarios](https://twitter.com/mauforonda/status/1537882267363573761).
 - [Denuncias de trata y tráfico](https://twitter.com/mauforonda/status/1539409565661405184).
-- [En qué horas del día escucho música en spotify](https://twitter.com/mauforonda/status/1533662130687430657).
+- [En qué horas del día escucho música en spotify](https://twitter.com/mauforonda/status/1599553602426503169).
 - [Fallecimientos en conflictos bolivianos](https://twitter.com/mauforonda/status/1529694511366123522)
 
 Exploraciones sobre ocupación y diversificación económica.
