@@ -11,16 +11,16 @@ jobs:
       - name: prepare
         run: |
           mkdir docs
-          cp templates/static/* docs/
+          cp -r templates/static/* docs/
       - name: convert
         uses: docker://pandoc/core:2.11
         with:
           args: >-
             -s
             --output=docs/index.html
-            --metadata title="👋 mauforonda"
+            --metadata title="Mau Foronda"
             --template=templates/template.html
-            index.md
+            src/index.md
       - name: publish
         uses: crazy-max/ghaction-github-pages@v3
         with:
