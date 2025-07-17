@@ -11,7 +11,7 @@ jobs:
       - name: prepare
         run: |
           mkdir docs
-          cp -r templates/static/* docs/
+          cp -r src/static/* docs/
       - name: convert
         uses: docker://pandoc/core:2.11
         with:
@@ -19,7 +19,7 @@ jobs:
             -s
             --output=docs/index.html
             --metadata title="Mau Foronda"
-            --template=templates/template.html
+            --template=src/template.html
             src/index.md
       - name: publish
         uses: crazy-max/ghaction-github-pages@v3
