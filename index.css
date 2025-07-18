@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --background: 245, 245, 245;
+    --text: 54, 55, 55;
+    --link: 36, 150, 20;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        --background: 25, 27, 33;
+        --text: 228, 233, 244;
+        --link: 117, 200, 105;
+    }
+}
+
+html {
+    font-family: "Inter";
+    background-color: rgba(var(--background));
+    color: rgba(var(--text), .9);
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 30px;
+    font-size: 16px;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+a {
+    color: rgba(var(--link), 1);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+        text-decoration: 1px solid rgba(var(--link), 1) underline;
+    }
+}
+
+h1 {
+    position: relative;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        background-color: rgba(var(--text), .9);
+        mask-image: url('images/icon.svg');
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+    }
+}
+
+.proyectos {
+
+    margin: 30px 0;
+    padding: 10px 0;
+    border-top: 1px solid rgba(var(--text), .1);
+    border-bottom: 1px solid rgba(var(--text), .1);
+
+    >p,
+    .listado h2 {
+        font-size: .8rem;
+        font-weight: normal;
+        font-style: italic;
+        opacity: .8;
+    }
+
+    .listado {
+
+        font-size: 1rem;
+        margin: 30px 0 30px 20px;
+
+        h2:nth-of-type(n + 2) {
+            margin-top: 20px;
+        }
+
+        a {
+            color: rgba(var(--text), 1);
+            text-decoration: none;
+            font-weight: 550;
+        }
+
+        a:hover {
+            text-decoration: 1px solid rgba(var(--text), 1) underline;
+        }
+
+    }
+}
+
+.sign {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(var(--text), .9);
+    mask-image: url('images/sign.svg');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+@media (min-width: 900px) {
+    h1 {
+        left: -30px;
+    }
+}
