@@ -41,7 +41,6 @@ a {
 
 h1 {
     position: relative;
-    left: -30px;
 
     &::before {
         content: "";
@@ -102,4 +101,10 @@ h1 {
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
+}
+
+@media (min-width: 900px) {
+    h1 {
+        left: -30px;
+    }
 }
