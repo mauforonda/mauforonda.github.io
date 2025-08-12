@@ -16,7 +16,7 @@ Monitores para [precios](https://mauforonda.github.io/precios/), [el valor del d
 
 ## elecciones
 
-[Programas de gobierno](https://mauforonda.github.io/programas-de-gobierno-2025/), mapas de monitoreo al conteo de [votos en 2020](https://mauforonda.github.io/elecciones2020/) y [2021](https://mauforonda.github.io/elecciones2021/alcaldias.html).
+[Candidatos en tu circunscripción](https://observablehq.com/@mauforonda/en-que-circunscripcion-me-encuentro), [programas de gobierno](https://mauforonda.github.io/programas-de-gobierno-2025/), mapas de monitoreo al conteo de [votos en 2020](https://mauforonda.github.io/elecciones2020/) y [2021](https://mauforonda.github.io/elecciones2021/alcaldias.html).
 
 ## salud
 
