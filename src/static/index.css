@@ -74,7 +74,7 @@ a {
 }
 
 .proyectos {
-  margin: 60px 0;
+  margin: 50px 0;
   padding: 10px 0;
   border-top: 1px solid rgba(var(--text), 0.1);
   border-bottom: 1px solid rgba(var(--text), 0.1);
@@ -108,16 +108,27 @@ a {
 }
 
 .footer {
-  margin: 50px 0;
-  .sign {
-    width: 100px;
-    height: 100px;
-    mask-image: url("images/sign.svg");
+  text-align: center;
+  .soil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .sign {
+      margin: 50px 0;
+      width: 100px;
+      height: 100px;
+      mask-image: url("images/sign.svg");
+    }
+    .sonidos {
+      font-size: 1.5rem;
+      color: rgba(var(--text), .2);
+    }
+    .sonidos:hover {
+      text-decoration: none;
+    }
   }
 }
 
 @media (min-width: 900px) {
-  h1 {
-    left: -30px;
-  }
 }
