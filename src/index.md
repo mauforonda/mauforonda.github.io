@@ -1,8 +1,12 @@
-# Mau Foronda
+::: {.header}
+
+<h1 title="Mau Foronda" alt="Mau Foronda"><div class="drawing mauforonda"></div></h1>
 
 Descubro, preservo y construyo públicamente con datos sobre Bolivia.
 
 Si llegaste a esta página, tú y yo tenemos probablemente mucho de qué hablar. [Escríbeme](mailto:mauriforonda@gmail.com), me encantaría conocerte y construir algo juntos.
+
+:::
 
 ::: {.proyectos}
 
@@ -30,11 +34,12 @@ Monitores para [contratos públicos](https://observablehq.com/@mauforonda/convoc
 
 Gráficas sobre [incendios forestales](https://x.com/mauforonda/status/1835059719188132038), [el impacto de la minería](https://observablehq.com/@mauforonda/huellas-de-la-mineria-en-el-norte-de-la-paz) y la [deforestación](https://observablehq.com/@mauforonda/escenas-de-deforestacion).
 
-
 :::
 
 ... entre muchas otras cosas que comparto en [twitter](https://x.com/mauforonda), [github](https://github.com/mauforonda/) y [observable](https://observablehq.com/@mauforonda).
 
 :::
 
-<div class="sign"></div>
+::: {.footer}
+<div class="drawing sign"></div>
+:::
