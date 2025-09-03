@@ -23,34 +23,35 @@ body {
   color: rgba(var(--text), 0.9);
   display: flex;
   justify-content: center;
-  background: rgba(var(--text), 0.05);
+  max-height: 100vh;
+  margin: 0;
+
+  background-color: rgba(var(--background), 1);
+  background-image: radial-gradient(
+    rgba(var(--text), 0.5) 0.45px,
+    rgba(var(--background), 1) 0.45px
+  );
+  background-size: 9px 9px;
 }
 
-.interior {
-  margin: 30px;
+#interior {
+  margin: 30px 30px 0 30px;
   font-size: 16px;
   max-width: 650px;
   line-height: 1.5;
-  border: 1px solid rgba(var(--text), 1);
+  border: 2px solid rgba(var(--text), 0.8);
   padding: 25px;
-  border-radius: 400px 400px 3px 3px;
+  border-radius: 400px 400px 0px 0px;
+  max-height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
   background: rgba(var(--background), 1);
-}
-
-body::before {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  content: "";
-  pointer-events: none;
-  border: 0.75rem solid rgba(var(--text), 1);
-  box-sizing: border-box;
+  /* background: linear-gradient(
+    to top,
+    rgba(var(--link), 0.05),
+    rgba(var(--background), 1) 10%
+  ); */
+  border-bottom: 0;
 }
 
 a {
@@ -83,9 +84,13 @@ a {
 
 .proyectos {
   margin: 50px 0;
-  padding: 10px 0;
+  padding: 40px 0;
   border-top: 1px dotted rgba(var(--text), 1);
   border-bottom: 1px dotted rgba(var(--text), 1);
+
+  > p {
+    text-align: center;
+  }
 
   > p,
   .listado h2 {
@@ -97,7 +102,7 @@ a {
 
   .listado {
     font-size: 1rem;
-    margin: 30px 0 30px 20px;
+    margin: 40px 10px 40px 10px;
 
     h2:nth-of-type(n + 2) {
       margin-top: 20px;
@@ -143,5 +148,8 @@ a {
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
+  #interior {
+    margin: 15px 15px 0px 15px;
+  }
 }
