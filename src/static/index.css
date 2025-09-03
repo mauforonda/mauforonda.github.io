@@ -2,15 +2,17 @@
 
 :root {
   --background: 250, 250, 250;
-  --text: 54, 55, 55;
-  --link: 132, 166, 88;
+  --text: 7, 81, 207;
+  --text-secondary: 35, 38, 43;
+  --link: 62, 180, 130;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: 25, 27, 33;
-    --text: 228, 233, 244;
-    --link: 171, 210, 114;
+    --background: 17, 18, 22;
+    --text: 142, 197, 255;
+    --text-secondary: 255, 255, 255;
+    --link: 164, 229, 193;
   }
 }
 
@@ -25,13 +27,12 @@ body {
   justify-content: center;
   max-height: 100vh;
   margin: 0;
-
   background-color: rgba(var(--background), 1);
   background-image: radial-gradient(
-    rgba(var(--text), 0.5) 0.45px,
+    rgba(var(--text-secondary), 0.3) 0.45px,
     rgba(var(--background), 1) 0.45px
   );
-  background-size: 9px 9px;
+  background-size: 5px 5px;
 }
 
 #interior {
@@ -39,25 +40,20 @@ body {
   font-size: 16px;
   max-width: 650px;
   line-height: 1.5;
-  border: 2px solid rgba(var(--text), 0.8);
+  border: 2px solid rgba(var(--text), 1);
   padding: 25px;
   border-radius: 400px 400px 0px 0px;
   max-height: 100vh;
   overflow: scroll;
   scrollbar-width: none;
   background: rgba(var(--background), 1);
-  /* background: linear-gradient(
-    to top,
-    rgba(var(--link), 0.05),
-    rgba(var(--background), 1) 10%
-  ); */
   border-bottom: 0;
 }
 
 a {
   color: rgba(var(--link), 1);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 
   &:hover {
     text-decoration: 1px solid rgba(var(--link), 1) underline;
@@ -94,35 +90,35 @@ a {
 
   > p,
   .listado h2 {
+    color: rgba(var(--text-secondary), 1);
     font-size: 0.8rem;
     font-weight: normal;
     font-style: italic;
-    opacity: 0.8;
   }
 
   .listado {
-    font-size: 1rem;
+    color: rgba(var(--text-secondary), 0.6);
+    font-size: 0.8rem;
     margin: 40px 10px 40px 10px;
 
     h2:nth-of-type(n + 2) {
       margin-top: 20px;
     }
-
-    a {
-      color: rgba(var(--text), 1);
-      text-decoration: none;
-      font-weight: 550;
-    }
-
-    a:hover {
-      text-decoration: 1px solid rgba(var(--text), 1) underline;
-    }
   }
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  color: rgba(var(--text), 0.8);
   text-align: center;
   margin-bottom: 50px;
+  > p {
+    max-width: 500px;
+  }
   .soil {
     display: flex;
     flex-direction: column;
@@ -140,7 +136,7 @@ a {
     }
     .sonidos {
       font-size: 1.5rem;
-      color: rgba(var(--text), 0.8);
+      color: rgba(var(--text), 1);
     }
     .sonidos:hover {
       text-decoration: none;
