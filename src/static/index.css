@@ -5,6 +5,10 @@
   --text: 7, 81, 207;
   --text-secondary: 35, 38, 43;
   --link: 62, 180, 130;
+  --bg: radial-gradient(
+    rgba(var(--text-secondary), 0.3) 0.45px,
+    rgba(var(--background), 1) 0.45px
+  );
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,10 +32,7 @@ body {
   max-height: 100vh;
   margin: 0;
   background-color: rgba(var(--background), 1);
-  background-image: radial-gradient(
-    rgba(var(--text-secondary), 0.3) 0.45px,
-    rgba(var(--background), 1) 0.45px
-  );
+  background-image: var(--bg);
   background-size: 5px 5px;
 }
 

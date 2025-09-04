@@ -22,9 +22,12 @@ jobs:
         with:
           args: >-
             -s
+            -f markdown+link_attributes
+            -t html5
             --output=docs/index.html
             --metadata title="Mau Foronda"
             --template=src/template.html
+            --lua-filter=src/tweaks.lua
             src/index.md
       - name: publish
         uses: crazy-max/ghaction-github-pages@v3
