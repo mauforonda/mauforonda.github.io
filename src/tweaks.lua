@@ -24,7 +24,7 @@ function Pandoc(doc)
   local out = {"<style>"}
   for _, id in ipairs(ids) do
     table.insert(out, string.format(
-      'body:has(a#%s:hover),\nbody:has(a#%s:focus-visible){background-image:url("screens/%s.png");background-size:128px;}',
+      'body:has(a#%s:hover),\nbody:has(a#%s:focus-visible){background-image:url("screens/%s.jpg");background-size:128px;}',
       id, id, id
     ))
   end
