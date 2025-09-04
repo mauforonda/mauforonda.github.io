@@ -18,6 +18,19 @@
     --text-secondary: 255, 255, 255;
     --link: 164, 229, 193;
   }
+  body::before {
+    height: 100vh;
+    position: absolute;
+    content: "";
+    background: linear-gradient(
+      to top,
+      rgba(var(--background), 0.7) 0,
+      rgba(var(--background), 0.2)
+    );
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
 }
 
 html {
@@ -34,6 +47,7 @@ body {
   background-color: rgba(var(--background), 1);
   background-image: var(--bg);
   background-size: 5px 5px;
+  z-index: 2;
 }
 
 #interior {
@@ -49,6 +63,7 @@ body {
   scrollbar-width: none;
   background: rgba(var(--background), 1);
   border-bottom: 0;
+  z-index: 2;
 }
 
 a {
