@@ -42,7 +42,13 @@ Gráficas sobre [incendios forestales](https://x.com/mauforonda/status/183505971
 
 Si llegaste a esta página, tú y yo tenemos probablemente mucho de qué hablar. [Escríbeme](mailto:mauriforonda@gmail.com), me encantaría conocerte y construir algo juntos.
 
+```{=html}
 <div class="soil">
-  <div class="drawing sign">.</div><a title="a qué suena por acá" alt="a qué suena por acá" class="sonidos" target="_blank" href="https://open.spotify.com/user/strangel8p/playlists">.</a>
+  <div class="dots">
+    <a title="sonidos en el estudio" target="_blank" href="https://open.spotify.com/user/strangel8p/playlists">.</a>
+    <a title="cosas que encuentro" target="_blank" href="https://raindrop.io/mauforonda/jardin-59670900?theme=auto&sort=-created">.</a>
+  </div>
+  <div class="drawing sign"></div>
 </div>
+```
 :::
