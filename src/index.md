@@ -18,7 +18,7 @@ Monitores para [precios](https://mauforonda.github.io/precios/){#precios}, [el v
 
 ## elecciones
 
-[Mapas por municipio inspirados en las elecciones de 2025](https://observablehq.com/@mauforonda/mapas-electorales-2025)[mapa por recintos para las elecciones generales 2025](https://datosbolivia.github.io/elecciones2025/){#elecciones2025}, [candidatos en tu circunscripción](https://observablehq.com/@mauforonda/en-que-circunscripcion-me-encuentro){#candidatos2025}, [programas de gobierno](https://mauforonda.github.io/programas-de-gobierno-2025/){#programas2025}, mapas de monitoreo al conteo de [votos en 2020](https://mauforonda.github.io/elecciones2020/){#elecciones2020} y [2021](https://mauforonda.github.io/elecciones2021/alcaldias.html){#elecciones2021}.
+[Mapas por municipio](https://observablehq.com/@mauforonda/mapas-electorales-2025) inspirados en las elecciones de 2025, [mapa por recintos para las elecciones generales 2025](https://datosbolivia.github.io/elecciones2025/){#elecciones2025}, [candidatos en tu circunscripción](https://observablehq.com/@mauforonda/en-que-circunscripcion-me-encuentro){#candidatos2025}, [programas de gobierno](https://mauforonda.github.io/programas-de-gobierno-2025/){#programas2025}, mapas de monitoreo al conteo de [votos en 2020](https://mauforonda.github.io/elecciones2020/){#elecciones2020} y [2021](https://mauforonda.github.io/elecciones2021/alcaldias.html){#elecciones2021}.
 
 ## salud
 
