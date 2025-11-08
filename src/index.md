@@ -12,6 +12,10 @@ Recientemente hice materiales para ...
 
 ::: {.listado}
 
+## población
+
+[Atlas urbano con datos del censo 2024](https://mauforonda.github.io/atlasurbano/){#atlas-urbano}.
+
 ## crisis
 
 Monitores para [precios](https://mauforonda.github.io/precios/){#precios}, [el valor del dólar](https://mauforonda.github.io/dolares/){#dolares}, [abastecimiento de combustible](https://observablehq.com/@mauforonda/combustible){#combustibles}, [bloqueos en carreteras](https://observablehq.com/@mauforonda/bloqueos-en-carreteras-de-bolivia){#bloqueos} y [noticias](https://boliviadigest.val.run/){#noticias}.
