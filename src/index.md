@@ -30,7 +30,7 @@ Monitores para [precios](https://mauforonda.github.io/precios/){#precios}, [el v
 
 ## gobierno
 
-Monitores para [contratos públicos](https://observablehq.com/@mauforonda/convocatorias-publicas-del-gobierno-boliviano){#sicoes}, [datos geográficos](https://mauforonda.github.io/geodatos/){#geodatos} y [publicaciones del Instituto Nacional de Estadística](https://observablehq.com/@mauforonda/documentos-del-ine){#ine}.
+Monitores para [contratos públicos](https://observablehq.com/@mauforonda/convocatorias-publicas-del-gobierno-boliviano){#sicoes}, [datos geográficos](https://mauforonda.github.io/geodatos/){#geodatos} y [publicaciones del Instituto Nacional de Estadística](https://mauforonda.github.io/catalogo-ine/){#ine}.
 
 ## medio ambiente
 
@@ -38,7 +38,7 @@ Gráficas sobre [incendios forestales](https://x.com/mauforonda/status/183505971
 
 :::
 
-... entre muchas otras cosas que comparto en [twitter](https://x.com/mauforonda), [github](https://github.com/mauforonda/) y [observable](https://observablehq.com/@mauforonda).
+... entre muchas otras cosas que comparto en [twitter](https://x.com/mauforonda), [github](https://github.com/mauforonda/), [facebook](https://www.facebook.com/mauforond) y [observable](https://observablehq.com/@mauforonda).
 
 :::
 
@@ -50,7 +50,6 @@ Si llegaste a esta página, tú y yo tenemos probablemente mucho de qué hablar.
 <div class="soil">
   <div class="dots">
     <a title="sonidos en el estudio" target="_blank" href="https://open.spotify.com/user/strangel8p/playlists">.</a>
-    <a title="cosas que encuentro" target="_blank" href="https://raindrop.io/mauforonda/jardin-59670900?theme=auto&sort=-created">.</a>
   </div>
   <div class="drawing sign"></div>
 </div>
